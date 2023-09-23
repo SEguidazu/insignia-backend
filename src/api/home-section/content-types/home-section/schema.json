@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_sections",
+  "info": {
+    "singularName": "home-section",
+    "pluralName": "home-sections",
+    "displayName": "HomeSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Secciones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.section",
+      "required": true
+    }
+  }
+}
