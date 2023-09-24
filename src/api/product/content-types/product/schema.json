@@ -48,6 +48,10 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "products"
+    },
+    "is_featured": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
