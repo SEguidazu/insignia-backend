@@ -29,6 +29,15 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "medium"
     }
   }
 }

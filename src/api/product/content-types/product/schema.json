@@ -52,6 +52,12 @@
     "is_featured": {
       "type": "boolean",
       "default": false
+    },
+    "subcategory": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::subcategory.subcategory",
+      "inversedBy": "products"
     }
   }
 }
