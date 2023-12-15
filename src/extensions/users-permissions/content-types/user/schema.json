@@ -69,11 +69,7 @@
       "type": "boolean",
       "default": false
     },
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "address": {
+    "fullname": {
       "type": "string",
       "required": true
     },
@@ -81,6 +77,18 @@
       "type": "biginteger",
       "required": true,
       "unique": true
+    },
+    "address": {
+      "displayName": "Customer",
+      "type": "component",
+      "repeatable": false,
+      "component": "customer-component.customer",
+      "required": true
+    },
+    "favorite_products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
     }
   }
 }

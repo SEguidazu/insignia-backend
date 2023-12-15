@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_customer_component_customers",
+  "info": {
+    "displayName": "Address",
+    "icon": "pinMap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "street": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "apartment": {
+      "type": "string"
+    },
+    "additional_info": {
+      "type": "string"
+    },
+    "postal_code": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "province": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

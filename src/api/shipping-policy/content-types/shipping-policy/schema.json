@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "shipping_policies",
+  "info": {
+    "singularName": "shipping-policy",
+    "pluralName": "shipping-policies",
+    "displayName": "Shipping Policy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

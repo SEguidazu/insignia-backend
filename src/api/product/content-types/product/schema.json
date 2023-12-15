@@ -59,11 +59,11 @@
       "target": "api::subcategory.subcategory",
       "inversedBy": "products"
     },
-    "Gender": {
+    "genero": {
       "type": "enumeration",
       "enum": [
-        "Male",
-        "Female"
+        "hombre",
+        "mujer"
       ]
     }
   }
