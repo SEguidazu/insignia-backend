@@ -20,4 +20,4 @@ jobs:
           aws-secret-access-key: LF/oBLeA8mJU0UIENzgpnum20IUhYyEI2SQ81cOC
       - run: yarn install
       - run: NODE_ENV=production yarn build
-      - run: aws s3 sync . s3://insignia-backend/ --quiet --delete
+      - run: aws s3 sync . s3://bucket-lvplz6/insignia-backend/ --quiet --delete
