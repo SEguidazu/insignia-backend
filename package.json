@@ -6,7 +6,9 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
+    "start:win": "cross-env NODE_ENV=production yarn start",
     "build": "strapi build",
+    "build:win": "cross-env NODE_ENV=production yarn build",
     "strapi": "strapi"
   },
   "devDependencies": {},
@@ -14,6 +16,7 @@
     "@strapi/plugin-i18n": "4.11.7",
     "@strapi/plugin-users-permissions": "4.11.7",
     "@strapi/strapi": "4.11.7",
+    "cross-env": "^7.0.3",
     "pg": "8.8.0",
     "strapi-auto-uuid": "0.0.8",
     "strapi-plugin-navigation": "2.2.12"
