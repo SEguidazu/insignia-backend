@@ -15,7 +15,7 @@ jobs:
       - name: Setup the AWS Cli
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-region: "us-east-1"
+          aws-region: us-east-1
           aws-access-key-id: AKIAR6FRLN2AMCZ7IXCP
           aws-secret-access-key: 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
       - run: yarn install
