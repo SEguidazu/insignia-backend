@@ -110,6 +110,7 @@ coverage
 license.txt
 exports
 *.cache
+*.lock
 dist
 build
 .strapi-updater.json
