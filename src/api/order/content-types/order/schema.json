@@ -31,6 +31,21 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "orders"
+    },
+    "payment_id": {
+      "type": "string",
+      "unique": true
+    },
+    "status": {
+      "type": "string",
+      "unique": false
+    },
+    "external_reference": {
+      "type": "string"
+    },
+    "merchant_order_id": {
+      "type": "string",
+      "unique": true
     }
   }
 }
