@@ -46,6 +46,12 @@
     "merchant_order_id": {
       "type": "string",
       "unique": true
+    },
+    "status_detail": {
+      "type": "string"
+    },
+    "order_id_mp": {
+      "type": "string"
     }
   }
 }
