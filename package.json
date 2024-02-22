@@ -8,6 +8,7 @@
     "start": "strapi start",
     "start:win": "cross-env NODE_ENV=production yarn start",
     "build": "strapi build",
+    "build:lin": "NODE_ENV=production yarn build",
     "build:win": "cross-env NODE_ENV=production yarn build",
     "strapi": "strapi"
   },
