@@ -65,6 +65,11 @@
         "hombre",
         "mujer"
       ]
+    },
+    "type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::type.type"
     }
   }
 }
