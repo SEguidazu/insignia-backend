@@ -95,6 +95,12 @@
       "relation": "oneToMany",
       "target": "api::order.order",
       "mappedBy": "users_permissions_user"
+    },
+    "dni": {
+      "type": "biginteger",
+      "required": true,
+      "unique": true,
+      "max": "99999999"
     }
   }
 }
